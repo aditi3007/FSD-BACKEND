@@ -8,7 +8,7 @@ const Update = () => {
         const age = e.target.age.value
         const password=e.target.password.value;
         const data={name,age,password}
-        await axios.put(`https://fsdbackenddsa.onrender.com/users/${id}`,data)
+        await axios.put(`https://fsd-backend-2-zy0t.onrender.com/users/${id}`,data)
         alert("Success")
     }
 

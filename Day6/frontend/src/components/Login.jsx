@@ -13,7 +13,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.get(`https://fsdbackenddsa.onrender.com/users/${loginData.id}`);
+      const res = await axios.get(`https://fsd-backend-2-zy0t.onrender.com/users/${loginData.id}`);
       if (res.data.password === loginData.password) {
         alert('Login Successful!');
         navigate('/dashboard');
